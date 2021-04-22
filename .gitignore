@@ -1,18 +1,18 @@
-*.rbc
-capybara-*.html
-.rspec
+spark-backend/*.rbc
+spark-backend/capybara-*.html
+spark-backend/.rspec
 spark-backend/public/system
 spark-backend/coverage/
 spark-backend/spec/tmp
-*.orig
-rerun.txt
-pickle-email-*.html
+spark-backend/*.orig
+spark-backend/rerun.txt
+spark-backend/pickle-email-*.html
 
 # Ignore all logfiles and tempfiles.
 spark-backend/log/*
 spark-backend/tmp/*
-!/log/.keep
-!/tmp/.keep
+!spark-backend/log/.keep
+!spark-backend/tmp/.keep
 
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 spark-backend/config/initializers/secret_token.rb
@@ -23,31 +23,31 @@ spark-backend/config/master.key
 
 # dotenv
 # TODO Comment out this rule if environment variables can be committed
-.env
+spark-backend/.env
 
 ## Environment normalization:
-/.bundle
-/vendor/bundle
+spark-backend/.bundle
+spark-backend/vendor/bundle
 
 # these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
+spark-backend/.rvmrc
 
 # if using bower-rails ignore default bower_components path bower.json files
-/vendor/assets/bower_components
-*.bowerrc
-bower.json
+spark-backend/vendor/assets/bower_components
+spark-backend/*.bowerrc
+spark-backend/bower.json
 
 # Ignore pow environment settings
-.powenv
+spark-backend/.powenv
 
 # Ignore Byebug command history file.
-.byebug_history
+spark-backend/.byebug_history
 
 # Ignore node_modules
-node_modules/
+spark-backend/node_modules/
 
 # Ignore precompiled javascript packs
 spark-backend/public/packs
@@ -55,13 +55,13 @@ spark-backend/public/packs-test
 spark-backend/public/assets
 
 # Ignore yarn files
-/yarn-error.log
-yarn-debug.log*
-.yarn-integrity
+spark-backend/yarn-error.log
+spark-backend/yarn-debug.log*
+spark-backend/.yarn-integrity
 
 # Ignore uploaded files in development
-/storage/*
-!/storage/.keep
+spark-backend/storage/*
+!spark-backend/storage/.keep
 
 # Ignore initial database.yml files
 spark-backend/config/database.yml
