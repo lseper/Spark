@@ -65,3 +65,9 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+
+# Ignore initial database.yml files
+/config/database.yml
+
+# Ignore code coverage metric folder
+/coverage
