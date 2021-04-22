@@ -1,25 +1,22 @@
 *.rbc
 capybara-*.html
 .rspec
-/db/*.sqlite3
-/db/*.sqlite3-journal
-/db/*.sqlite3-[0-9]*
-/public/system
-/coverage/
-/spec/tmp
+spark-backend/public/system
+spark-backend/coverage/
+spark-backend/spec/tmp
 *.orig
 rerun.txt
 pickle-email-*.html
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
+spark-backend/log/*
+spark-backend/tmp/*
 !/log/.keep
 !/tmp/.keep
 
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
-config/initializers/secret_token.rb
-config/master.key
+spark-backend/config/initializers/secret_token.rb
+spark-backend/config/master.key
 
 # Only include if you have production secrets in this file, which is no longer a Rails default
 # config/secrets.yml
@@ -53,9 +50,9 @@ bower.json
 node_modules/
 
 # Ignore precompiled javascript packs
-/public/packs
-/public/packs-test
-/public/assets
+spark-backend/public/packs
+spark-backend/public/packs-test
+spark-backend/public/assets
 
 # Ignore yarn files
 /yarn-error.log
@@ -67,7 +64,8 @@ yarn-debug.log*
 !/storage/.keep
 
 # Ignore initial database.yml files
-/config/database.yml
+spark-backend/config/database.yml
 
-# Ignore code coverage metric folder
-/coverage
+# stuff that I have no idea if it matters or not
+spark-backend/tmp/development_secret.txt
+spark-backend/tmp/restart.txt
